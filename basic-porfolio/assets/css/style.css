@@ -1,0 +1,150 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+*/
+/*html {
+  background-image: url("./../images/fresh_snow.png");
+  margin-left: auto;
+  margin-right: auto;
+}    
+*/
+
+body {
+    background-image: url("./../images/fresh_snow.png");
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    border-color: #dddddd;
+
+  }
+  .content {
+    width: 100%;
+  }
+
+
+header {
+    color: #ffffff;
+    background: orange;
+    border-style: solid;
+    border-bottom-color: #dddddd;
+    width: 100%;
+    text-align: center; 
+    margin: inherit;
+
+    
+  }
+  
+h1 {
+    padding: 20px 0;
+    width: 240px;
+    margin: inherit;
+    font-size: 28px;
+    color: #ffffff;
+    background: #4aaaa5;
+  }
+  
+h2 {
+    padding: 8px;
+    font-size: 24px;
+    color: #4aaaa5;
+    background-color: blueviolet;
+    
+    border-bottom: 8px solid yellow;
+    
+
+  }
+  
+
+  
+  #container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+    margin-top: 10px;
+    color: #777777;
+    width: 650px;
+    background-color: lightcoral;
+    
+    
+  }
+  
+
+  
+  #contact-info {
+    background-color: red;
+    padding: 0px;
+    margin-top: 10px;
+    width: 270px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 0px;
+    color: #ffffff;
+    
+    text-align: center;
+    
+    
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    float: left;
+  }
+  
+  footer {
+      background: #666666;
+      height: 20px;
+      padding: 30px 0;
+      text-align: center;
+      border-top-style: solid;
+      border-top-color: #4aaaa5;
+      border-top-width: 8px;
+      clear: both;
+      font-size: 12px;
+  }
+
+  ul {
+      list-style-type: none;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 20px;
+      padding: 8px;
+  }
+
+  li {
+      display: inline;
+  }
+
+  li a {
+      display: inline;
+      padding: 2px;
+      }
+
+  nav a{
+      margin: 0;
+      padding: 8px;
+      color: #777777;
+      background-color: #ffffff;
+      overflow: hidden;
+      float: right;
+  }
