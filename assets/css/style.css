@@ -120,6 +120,7 @@ nav a {
   }
 
 /*The text in those project images*/
+/*Description needs to be moved onto image and re-sized*/
 .desc {
   display: block;
   text-align: center;
