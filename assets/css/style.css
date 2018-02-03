@@ -59,7 +59,6 @@ h2 {
 p {
     text-indent: 30px;
     padding-top: 20px;
-  
   }
 
 #bio-image {
@@ -107,30 +106,39 @@ nav a {
     border: 0;
     margin-top: 10px;
   }
+  nav a:hover {
+    color: #4aaaa5;
+  }
 
 /*Place holder image properties for future projects*/
 .gallery {
     display: block;
     margin: 10px;
-    border: 2px solid #cccccc;
+    border: 1px solid #cccccc;
     float: left;
+    opacity: 0.9;
   }
 
 /*The text in those project images*/
 .desc {
-  bottom: 25px;
+  display: block;
   text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background: #4aaaa5;
 }
 
 /*Defines the the space for the large elements in the pages*/
 .container {
   width: 610px;
   margin-top: 30px;
+  margin-bottom: 30px;
   overflow: auto;
   margin-left: 100px;
   background-color: #ffffff;
   padding: 20px;
   clear: none;
+  border: 1px solid #cccccc;
 }
 
 /*Contact info form*/
@@ -171,16 +179,21 @@ input[type=submit] {
   cursor: pointer;
 }
 
+#contact {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
 /*Container for the social links*/
-#aside {
+aside {
   float: right;
   width: 230px;
   height: 160px;
   padding: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-right: 100px;
   background: #ffffff;
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
   text-align: center;
 }
 
