@@ -2,23 +2,22 @@
 
 /*These properties define the entire page*/
 body {
-    background-color: lightgrey;
+    background-image: url("./../images/fresh_snow.png");
+    background-size: cover;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 150%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 50%;
     color: #777777;
     border-color: #dddddd;
+    margin: auto;
   }
 
 /*Has the background image and makes the main container*/
 .content {
-    width: 1160px;
-    background-image: url("./../images/fresh_snow.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 1060px;
+    position: center;
     min-height: calc(100vh - 70px);
     overflow: auto;
     clear: none;
@@ -30,7 +29,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
-    width: 1160px;
+    width: 100%;
     text-align: center; 
     margin: inherit;   
   }
@@ -43,7 +42,7 @@ h1 {
     font-size: 28px;
     color: #ffffff;
     background: #4aaaa5;
-    margin-left: 100px;
+    margin-left: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 /*Properties for other headers*/
@@ -72,26 +71,25 @@ p {
   
 /*This styles the social links*/  
 ul {
-    list-style-type: none;
-    margin-right: auto;
-    margin-left: auto;
+
+
     margin-top: 20px; 
     padding: 10px;
   }
 
 /*You need this to make them line up horizontally*/
-li {
-    display: inline;
-  }
 
-/*Gives the social links a little cushion*/
-li a {
-    padding: 2px;
-      }
+
+.social {
+  width: 60px;
+  height: 60px;
+  padding-top: 30px;
+  text-align: center;
+}
 
 /*Pushes the nav bar in a little from the right*/
 nav {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 /*Most properties for the nav bar*/
@@ -112,12 +110,20 @@ nav a {
 
 /*Place holder image properties for future projects*/
 .gallery {
-    display: block;
+    
     margin: 10px;
     border: 1px solid #cccccc;
     float: left;
     opacity: 0.9;
+    margin-bottom: 20px;
+    color: #ffffff;
   }
+
+.project {
+  width: 240px;
+  height: 200px;
+ 
+}
 
 /*The text in those project images*/
 /*Description needs to be moved onto image and re-sized*/
@@ -125,8 +131,12 @@ nav a {
   display: block;
   text-align: center;
   text-decoration: none;
+  margin: auto;
+  width: 100%;
   color: #ffffff;
   background: #4aaaa5;
+  
+  z-index: -1;
 }
 
 /*Defines the the space for the large elements in the pages*/
@@ -135,7 +145,7 @@ nav a {
   margin-top: 30px;
   margin-bottom: 30px;
   overflow: auto;
-  margin-left: 100px;
+  margin-left: 50px;
   background-color: #ffffff;
   padding: 20px;
   clear: none;
@@ -192,7 +202,7 @@ aside {
   height: 160px;
   padding: 20px;
   margin-top: 30px;
-  margin-right: 100px;
+  margin-right: 50px;
   background: #ffffff;
   border: 1px solid #cccccc;
   text-align: center;
@@ -219,6 +229,6 @@ footer {
   border-top-style: solid;
   border-top-color: #4aaaa5;
   border-top-width: 8px;
-  width: 1160px;
+  
   font-size: 14px;
 }
